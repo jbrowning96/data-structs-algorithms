@@ -2,8 +2,10 @@
 #define GRID_CLASS_H
 
 //Goal: To make nodes which can accept any data type.
-template <typename T>
-
+typedef int T;
+typedef double T;
+typedef float T;
+typedef char T;
 class Node{
 
     private:
@@ -17,25 +19,25 @@ class Node{
     public:
         
         //Constructors
-        Node<T>(int key, T data)
+        Node(int key, T data)
         {
             this->key = key;
             this->data = data;
         }
 
-        Node<T>(int key)
+        Node(int key)
         {
             this->key = key;
             this->data = NULL;
         }
 
         //Destructors
-        ~Node<T>();
+        ~Node();
         
         //Getters
         int getKey(){return key;}
         T getData(){return data;}
-        Node*<T> getNext(){return next;}
+        Node* getNext(){return next;}
 
         //Setters
         void setKey(int key){this->key = key;}
