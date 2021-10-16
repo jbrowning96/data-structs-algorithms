@@ -1,15 +1,21 @@
-#ifndef LINKEDLIST_H
-#define LINKEDLIST_H
 
-#include "node.h"
+typedef int T;
+typedef float T;
+typedef double T;
+typedef char T;
+typedef bool T;
 
-template <typename T>
+struct Node{
+    int id;
+    T data;
+    Node* next;
+};
 
 class LinkedList
 {
     private:
-        Node<T>* head;
-        Node<T>* tail;
+        Node* head;
+        Node* tail;
 
     public:
         //Constructor: initializes all of these to be nullptr;
@@ -20,26 +26,26 @@ class LinkedList
         ~LinkedList(){};
 
         //Getters 
-        const Node<T>* getHead() const{return head;}
-        const Node<T>* getTail() const{return tail;}
+        const Node* getHead() const{return head;}
+        const Node* getTail() const{return tail;}
 
         //Setters 
-        void setHead(Node<T> head){this->head = head;}
-        void setTail(Node<T> tail){ this->tail = tail;}
+        void setHead(Node head){this->head = &head;}
+        void setTail(Node tail){ this->tail = &tail;}
 
         //Operator Overloads
 
         //[] operator
 
         //Functions 
-        void prependNode(Node<T>* newNode){};
+        void prependNode(Node* newNode){};
 
         void searchFor(int key){};
         void searchFor(T data){};
 
         void mergeSort(){};
 
-        void deleteNode(Node<T>* delNode){};
+        void deleteNode(Node* delNode){};
 
         void unionTwoLinkedLists(){};
 
@@ -49,4 +55,3 @@ class LinkedList
 
 
 };
-#endif
