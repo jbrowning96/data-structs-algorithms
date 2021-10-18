@@ -49,10 +49,8 @@ These are made to further my own experience, and for demonstration purposes.
 - [ ] [Linked Lists](./src/data-structures/lists/list.h)
 - [ ] [Doubley Linked Lists](./src/data-structures/deque/deque.h)
 - [ ] [Hash Table](./src/data-structures/hash/hash.h)
-
-- Graph
-  - [ ] [Directed](.src/data-structures)
-  - [ ] [Undirected](.src/data-structures)
+- [ ] [Directed Graph](.src/data-structures)
+- [ ] [Undirected Graph](.src/data-structures)
 - [ ] [Trie](.src/data-structures)
 - [ ] [Binary Search Tree](.src/data-structures)
 - [ ] [B-Tree](.src/data-structures)
