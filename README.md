@@ -43,7 +43,7 @@ These are made to further my own experience, and for demonstration purposes.
 - [ ] [Maximum Subarray](.src/dynamic-programming)
 
 ## [Data Structures](.src/data-structures)
-- [ ] [Node] (.src/data-structures/node/node.h)
+- [ ] [Node](.src/data-structures/node/node.h)
 - [ ] [Queue](.src/data-structures)
 - [ ] [Heap](.src/data-structures)
 - [ ] [Linked Lists](./src/data-structures/lists/list.h)
