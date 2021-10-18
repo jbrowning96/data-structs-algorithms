@@ -1,4 +1,4 @@
-#include "node/node.h"
+#include "~/development/data-structs-c-cpp/src/data-structures/node/node.h"
 
 class Hash
 {
@@ -16,6 +16,6 @@ class Hash
 
         //Destructor
         ~Hash();
-
+            cout << "some shit" << endl;
 
 };
