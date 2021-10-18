@@ -2,7 +2,6 @@
 
 ## Src
   * Ciphers
-    * [Another Rot13](https://github.com/jbrowning96/data-structs-algorithms-c-cpp)
     * [Caesar](https://github.com/jbrowning96/data-structs-algorithms-c-cpp)
     * [Morse Code](https://github.com/jbrowning96/data-structs-algorithms-c-cpp)
     * [Polybius](https://github.com/jbrowning96/data-structs-algorithms-c-cpp)
