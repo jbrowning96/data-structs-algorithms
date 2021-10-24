@@ -1,13 +1,11 @@
-#include "~/development/data-structs-c-cpp/src/data-structures/node/node.h"
-
+#include "./data-structures/node/node.h"
 class Hash
 {
     private:
 
         Hash* table;
-
-        Node openHashing(Node);
-        Node closedHashing(Node);
+        
+        int size;
 
     public:
 
@@ -16,6 +14,12 @@ class Hash
 
         //Destructor
         ~Hash();
-            cout << "some shit" << endl;
+
+        //Getters 
+
+        //Setters
+
+        //Functions
+        int modHash();
 
 };
